@@ -1,4 +1,6 @@
-# Nextjs issue demo explicit specification `no-store`
+# Next.js@RC issue demo explicit specification `no-store`
+
+title: [Next.js@RC] dynamic/static rendering depends on whether `no-store` is specified or is the default.
 
 ## To Reproduce
 

@@ -3,7 +3,8 @@
   "scripts": {
     "dev": "next dev --turbo",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "clean-start": "rm -rf .next && pnpm build && pnpm start"
   },
   "dependencies": {
     "next": "15.0.0-rc.0",
@@ -14,6 +15,7 @@
     "@types/node": "20.10.8",
     "@types/react": "18.2.47",
     "@types/react-dom": "18.2.18",
+    "prettier": "^3.2.5",
     "typescript": "^5.3.3"
   }
 }
